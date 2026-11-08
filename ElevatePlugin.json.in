@@ -1,0 +1,1 @@
+{ "OpenRGBPluginAPIVersion": 5, "Id": "openrgb-elevate", "Name": "Run as Administrator", "VersionStr": "@PROJECT_VERSION@", "Commit": "@PLUGIN_COMMIT@", "Url": "@PLUGIN_URL@" }
