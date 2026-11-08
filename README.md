@@ -22,7 +22,7 @@ Works with **OpenRGB 1.1 on Windows x64**.
 
 ## Install
 
-1. Download `openrgb-elevate-<version>-openrgb-1.1-win64.zip` from Releases and unzip it.
+1. Download `openrgb-elevate-<version>-openrgb-1.1-win64.zip` from [Releases](https://github.com/KrapFey/openrgb-elevate/releases) and unzip it.
 2. Exit OpenRGB (tray icon > Exit).
 3. In the unzipped folder run:
    ```powershell

@@ -4,7 +4,7 @@ project(OpenRGBElevatePlugin VERSION 1.0.0 LANGUAGES CXX)
 # Must match the Qt OpenRGB ships with (OpenRGB 1.1 = Qt 6.8.3, MSVC x64), or OpenRGB rejects the plugin.
 #   cmake -S . -B build -DCMAKE_PREFIX_PATH=<qt>/6.8.3/msvc2022_64 -DOPENRGB_SRC=<OpenRGB source at the 1.1 commit>
 set(OPENRGB_SRC "" CACHE PATH "OpenRGB source tree (headers only) matching the target OpenRGB version")
-set(PLUGIN_URL  "" CACHE STRING "Project URL shown in OpenRGB's plugin list")
+set(PLUGIN_URL  "https://github.com/KrapFey/openrgb-elevate" CACHE STRING "Project URL shown in OpenRGB's plugin list")
 if(NOT OPENRGB_SRC)
     message(FATAL_ERROR "Set -DOPENRGB_SRC=<path to OpenRGB source>")
 endif()
